@@ -9,6 +9,7 @@
 
 
 ## Grab interfaces off a type from a typed language:
+other phrases: "method set", "operations"
 "go" in this case: 
 
 int8's interface:
