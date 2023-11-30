@@ -9,7 +9,7 @@
 
 
 
-## Grab interfaces, operations, and functions off of types/structs from a typed language: ("go" in this case)
+## Grab interfaces, operations, and functions off of types: ("go" in this case)
 
 <!--
 other phrases: "method set", "operations"
