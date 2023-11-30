@@ -8,7 +8,10 @@
 `+` : addition, given a types upperbound like uint8 = 2^8-1 and adding another 2^8-1 the new worstcase type is 2^9
 
 
-## Grab interfaces off a type from a typed language:
+
+## Grab interfaces, operations, and functions off of types/structs from a typed language: ("go" in this case)
+
+<!--
 other phrases: "method set", "operations"
 "go" in this case: 
 
@@ -26,3 +29,4 @@ https://pkg.go.dev/std
 
 another interesting file: 
 https://github.com/golang/go/blob/28f4ea16a240af6c5a417e20be77745329f817f1/src/runtime/iface.go
+-->
