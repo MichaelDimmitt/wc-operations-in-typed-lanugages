@@ -9,7 +9,11 @@
 
 - Number
 ```
-`+` : addition, given a types upperbound like uint8 = 2^8-1 and adding another 2^8-1 the new worstcase type is 2^9  
+Summary:
+`+` : addition for uint8 type, we go out of bounds when:  
+adding a number 2^8 to another number 2^8 out of bounds occurs for uint8  
+256+256 = 512, out of bounds! 2^9 is not a valid uint8.  
+
 Think like a computer:  
 `+` : addition, given 1-5 as an input where 1-5 is a range type and we keep doing addition.
 worst case becomes 10  
@@ -17,6 +21,7 @@ worst case becomes 15
 worst case becomes 20  
 ... worst case for out of bounds is 256 + 2  
 Give a worstcase warning that we may be out of bounds for an int8 after the 128th operation. Which is 2^8 / 2  
+
 `+` : addition, given 1-5 as an input where 1-5 is a range type and we adding the number to itself.
 worst case becomes 10 (5 * 2) (5 * 2^1)  
 worst case becomes 20 (5 * 4) (5 * 2^2)  
