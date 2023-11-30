@@ -8,10 +8,9 @@
 `+` : addition, given a types upperbound like uint8 = 2^8-1 and adding another 2^8-1 the new worstcase type is 2^9
 
 
-
+<!--
 ## Grab interfaces, operations, and functions off of types: ("go" in this case)
 
-<!--
 other phrases: "method set", "operations"
 "go" in this case: 
 
