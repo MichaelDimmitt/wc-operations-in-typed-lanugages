@@ -11,8 +11,8 @@
 ```
 Summary:
 `+` : addition for uint8 type, we go out of bounds when:  
-adding a number 2^8 to another number 2^8 out of bounds occurs for uint8  
-256+256 = 512, out of bounds! 2^9 is not a valid uint8.  
+adding a number 2^8 to another number 2^8.  
+Translated: 256+256 = 512, out of bounds! 2^9 is not a valid uint8.  
 
 Think like a computer:  
 `+` : addition, given 1-5 as an input where 1-5 is a range type and we keep doing addition.
